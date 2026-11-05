@@ -1,0 +1,23 @@
+{
+  "name": "liberusoftware/sap-revenue-operations-filament",
+  "description": "Revenue operations Filament presentation module skeleton",
+  "type": "liberu-module",
+  "license": "MIT",
+  "require": {
+    "php": "^8.5",
+    "filament/filament": "^5.11"
+  },
+  "autoload": {
+    "psr-4": {
+      "Liberu\\Presentation\\Capability95b7076e39a3\\": "src/"
+    }
+  },
+  "scripts": {
+    "check": "@php -l src/CapabilityPlugin.php"
+  },
+  "extra": {
+    "liberu": {
+      "name": "sap-revenue-operations-filament"
+    }
+  }
+}
